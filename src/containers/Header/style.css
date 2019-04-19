@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  padding: 20px 5px 10px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  background-color: #343638;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.link {
+  margin: 4px;
+  padding: 8px 36px;
+  border-radius: 4px;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: white;
+  color: #343638;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+
+.facebookLogo, .instagramLogo {
+  padding: 0px 8px;
+  width: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .link {
+    text-align: center;
+    padding: 8px 16px;
+  }
+
+  .link:first-child {
+    order: 1;
+  }
+}
