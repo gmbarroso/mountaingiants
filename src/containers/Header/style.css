@@ -8,10 +8,6 @@
   color: white;
 }
 
-a:visited {
-  color: white;
-}
-
 .link {
   margin: 4px;
   padding: 8px 36px;
@@ -24,6 +20,7 @@ a:visited {
 .link:hover {
   background-color: white;
   color: #343638;
+  cursor: pointer;
 }
 
 .logos {
