@@ -1,0 +1,79 @@
+.home {
+  display: flex;
+  padding: 16px 16px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card-group {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 16px 16px;
+  /* border: 1px solid black; */
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
+.livro, .gigantes, .pirandello, .inspiracoes, .elenco {
+  opacity: 0.5;
+}
+
+.livro:hover, .gigantes:hover, .pirandello:hover, .inspiracoes:hover, .elenco:hover {
+  opacity: 1;
+  cursor: pointer;
+  color: white;
+}
+
+.livro {
+  background-image: url("../../img/livro.jpg");
+}
+
+.gigantes {
+  background-image: url("../../img/gigantes.jpeg");
+}
+
+.pirandello {
+  background-image: url("../../img/pirandello.jpg");
+}
+
+.inspiracoes {
+  background-image: url("../../img/inspirações.jpeg");
+}
+
+.elenco {
+  background-image: url("../../img/elenco.jpeg");
+}
+
+.map {
+  width: 500px;
+  height: 700px;
+}
+
+.obra {
+  background-image: url("../../img/livro.jpg");
+}
+
+.map {
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-group {
+    display: flex;
+    flex-direction: column;
+  }
+}
