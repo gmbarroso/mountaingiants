@@ -2,6 +2,11 @@ import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import Header from '../../containers/Header'
+import Obra from '../../containers/Obra'
+import Autor from '../../containers/Autor'
+import Elenco from '../../containers/Elenco'
+import Inspirations from '../../containers/Inspirations'
+import Giants from '../../containers/Giants'
 import Footer from '../../containers/Footer'
 
 import {
@@ -19,7 +24,12 @@ class Root extends Component {
     return (
       <Fragment>
         <Header />
-        <Route path="/home" component={Home} />
+        <Route exact path="/" component={Home} />
+        <Route path="/obra" component={Obra} />
+        <Route path="/autor" component={Autor} />
+        <Route path="/elenco" component={Elenco} />
+        <Route path="/inspiracoes" component={Inspirations} />
+        <Route path="/gigantes" component={Giants} />
         <Footer />
       </Fragment>
     )

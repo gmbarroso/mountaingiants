@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 // import { Map, GoogleApiWrapper } from 'google-maps-react';
 
+import {
+  withRouter,
+} from 'react-router-dom'
+import { compose } from 'ramda'
+
 // import Card from '../../components/Card'
 
 import './style.css'
@@ -11,6 +16,8 @@ import './style.css'
 //   margin: '100px 100px',
 //   zIndex: '1',
 // };
+
+const enhance = compose(withRouter)
 
 class Home extends Component {
   constructor (props) {
@@ -70,7 +77,7 @@ class Home extends Component {
   }
 }
 
-export default Home
+export default enhance(Home)
 
 
 // = ({ google }) => {
