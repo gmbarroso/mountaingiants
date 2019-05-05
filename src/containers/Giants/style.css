@@ -1,0 +1,56 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title > h3 {
+  margin: 0;
+}
+
+.creatures {
+  display: flex;
+  padding: 16px 16px;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.giantsDiv {
+  display: flex;
+  padding: 16px 16px 48px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.giantsPhotos1, .giantsPhotos2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.giant1, .giant2, .giant3, .giant4, .giant5, .giant6  {
+  width: 300px;
+  padding: 16px 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .giantsDiv {
+    flex-direction: column;
+  }
+
+  .giantsPhotos1, .giantsPhotos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .giant1, .giant2, .giant3, .giant4, .giant5, .giant6  {
+    width: 200px;
+    padding: 16px 0px;
+  }
+}
