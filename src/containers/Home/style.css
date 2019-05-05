@@ -1,10 +1,12 @@
 .home {
   display: flex;
-  padding: 16px 16px;
+  padding: 56px 16px;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
 }
+
+#mapid { height: 180px; }
 
 .card-group {
   display: flex;
@@ -35,22 +37,27 @@
 
 .livro {
   background-image: url("../../img/livro.jpg");
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .gigantes {
-  background-image: url("../../img/gigantes.jpeg");
+  background-image: url("../../img/giant2.jpg");
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .pirandello {
-  background-image: url("../../img/pirandello.jpg");
+  background-image: url("../../img/pirandello2.jpg");
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .inspiracoes {
-  background-image: url("../../img/inspirações.jpeg");
+  background-image: url("../../img/giantsbr2.jpg");
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .elenco {
   background-image: url("../../img/elenco.jpeg");
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
 }
 
 .map {
