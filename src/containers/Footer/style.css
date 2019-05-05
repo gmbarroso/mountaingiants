@@ -1,11 +1,19 @@
 .footer {
   display: flex;
-  padding: 4px 16px;
+  padding: 16px 48px;
   align-items: center;
   justify-content: space-between;
-  background-color: #343638;
+  background-color: #14100F;
   color: white;
   font-size: 12px;
+}
+
+.footer > a {
+  padding: 8px 24px;
+}
+
+.localizacao > p, .schedule > p {
+  margin: 0px;
 }
 
 .oficina {
@@ -19,38 +27,20 @@
 }
 
 
-.oficina:hover, {
+.oficina:hover {
   background-color: white;
   color: #343638;
   text-decoration: none;
 }
 
-.dellacosta {
-  padding: 8px 0px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-.dellacosta:hover {
-  background-color: white;
-  color: #343638;
-}
-
-.schedule {
-  display: flex;
-  flex-direction: column;
-}
-
-.schedule > span {
-  padding: 4px 0px;
-}
-
-.createdBy {
+a, a:hover, a:active, a:focus, a:visited {
   font-size: 12px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
+    padding: 16px 16px;
     flex-direction: column;
     justify-content: center;
   }
@@ -58,5 +48,10 @@
   .oficina {
     text-align: center;
     padding: 8px 16px;
+  }
+
+  .localizacao, .schedule {
+    text-align: center;
+    padding: 16px 0px;
   }
 }
