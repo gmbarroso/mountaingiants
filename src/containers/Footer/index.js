@@ -13,27 +13,31 @@ const Footer = () => {
           >
               Oficina de atores SP
           </a>
-        <div>
-          <p>Local da peça</p>
-          <a
-            align="right"
-            className="dellacosta"
-            target="_blank"
-            href="http://teatromariadellacosta.com.br/"
-            rel="noopener noreferrer"
-          >
-              Teatro Maria Della Costa
-          </a>
+        <div className="localizacao">
+          <strong>Localização:</strong>
+          <br />
+          <br />
+          <p>Teatro Maria Della Costa</p><br />
+          <p>Rua Paim, 72, Bela Vista - SP</p>
         </div>
         <div className="schedule">
-          <p>Dias e horários:</p>
-          <span>Sábados e Domingos</span>
-          <span>De 19:00 às 21:00</span>
+          <strong>Dias e horários:</strong>
+          <br />
+          <br />
+          <p>Durante o mês de Junho/2019</p><br />
+          <p>Aos Sábados e Domingos</p><br />
+          <p>De 19:00 às 21:00</p>
         </div>
-        <span>Classificação: 16 anos</span>
+          <p>Classificação: xx anos</p>
         <div className="createdBy">
           <p>Criado por:</p>
-          <span>gmbarroso</span>
+          <a
+            target="_blank"
+            href="https://github.com/gmbarroso"
+            rel="noopener noreferrer" 
+          >
+            gmbarroso
+          </a>
         </div>
       </div>
     )

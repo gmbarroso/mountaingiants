@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+}
+
+.intro {
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+
+.grupos {
+  display: flex;
+  padding: 16px 16px 48px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.giantsit1, .giantsit2, .giantsit3, .giantsbr1, .giantsbr2, .giantsbr3, .giantsro1, .giantsro2, .giantsro3  {
+  width: 400px;
+  padding: 16px 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .grupos {
+    flex-direction: column;
+  }
+
+  .giantsit1, .giantsit2, .giantsit3, .giantsbr1, .giantsbr2, .giantsbr3, .giantsro1, .giantsro2, .giantsro3  {
+    width: 350px;
+    padding: 8px 0px;
+  }
+}

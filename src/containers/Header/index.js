@@ -26,7 +26,7 @@ class Header extends Component {
   }
 
   onHomeClick () {
-    this.props.history.push('/home')
+    this.props.history.push('/')
   }
 
   onObraClick () {

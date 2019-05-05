@@ -1,0 +1,76 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title > h3 {
+  margin: 0;
+}
+
+.obraDiv {
+  display: flex;
+  padding: 16px 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.books {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 9;
+}
+
+.books > span {
+  font-size: 14px;
+}
+
+.livroBr {
+  width: 200px;
+  padding: 16px 16px 8px;
+}
+
+.livroIt {
+  width: 200px;
+  padding: 16px 16px 8px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.explicacao {
+  width: 500px;
+}
+
+.citacoes {
+  font-size: 14px;
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .obraDiv {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .obraDiv {
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .explicacao, .citacoes {
+    width: 350px;
+  }
+
+  .books {
+    padding: 16px 0px;
+  }
+}
