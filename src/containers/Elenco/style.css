@@ -1,0 +1,59 @@
+.title {
+  text-align: center;
+}
+
+.title > h3 {
+  margin: 0;
+}
+
+.elencoDiv {
+  display: flex;
+  padding: 16px 16px 48px;
+  justify-content: center;
+}
+
+.quemSomos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aOficina, .oGrupo {
+  font-size: 16px;
+  width: 700px;
+}
+
+.artistas {
+  align-items: center;
+  font-size: 18px;
+}
+
+.direcao {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .elencoDiv {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .elencoDiv {
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .aOficina, .oGrupo {
+    font-size: 16px;
+    width: 350px;
+  }
+}
