@@ -1,0 +1,58 @@
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title > h3 {
+  margin: 0;
+}
+
+.autorDiv {
+  display: flex;
+  padding: 16px 16px;
+  justify-content: space-around;
+}
+
+.oAutor {
+  display: flex;
+  padding: 16px 16px 48px;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 7;
+}
+
+.luigi {
+  width: 500px;
+}
+
+.pirandellos {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+}
+
+.pirandello1, .pirandello2, .pirandello3 {
+  width: 200px;
+  padding: 16px 16px 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .autorDiv {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .autorDiv {
+    display: flex;
+    padding: 16px 16px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .luigi {
+    width: 350px;
+  }
+}
