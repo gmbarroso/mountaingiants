@@ -12,6 +12,13 @@
   padding: 8px 24px;
 }
 
+.leftSide {
+  padding: 4px 0px;
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+
 .localizacao > p, .schedule > p {
   margin: 0px;
 }
@@ -38,11 +45,27 @@ a, a:hover, a:active, a:focus, a:visited {
   text-decoration: none;
 }
 
+.createdBy, .createdBy > a {
+  font-size: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 @media screen and (max-width: 768px) {
   .footer {
     padding: 16px 16px;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .leftSide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rightSide {
+    padding: 16px 0px;
   }
 
   .oficina {
@@ -54,4 +77,9 @@ a, a:hover, a:active, a:focus, a:visited {
     text-align: center;
     padding: 16px 0px;
   }
+
+  .createdBy {
+    align-items: center;
+  }
+
 }
