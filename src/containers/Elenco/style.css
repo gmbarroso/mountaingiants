@@ -24,14 +24,12 @@
 }
 
 .artistas {
-  align-items: center;
+  text-align: center;
   font-size: 18px;
 }
 
 .direcao {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
+  text-align: center;
 }
 
 .textAlign {

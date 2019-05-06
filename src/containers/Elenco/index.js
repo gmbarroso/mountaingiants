@@ -22,8 +22,9 @@ class Elenco extends Component {
       let elenco = `
         Alberto Paulo, Jéssica Bispo, João  Porto, Guilherme Barroso,\n
         Amanda Martins, Gisele Rebello, Jéssica Lopes, Mariana Brasil, Bianca Paixão, Maysa Martins, Kelly Danielle,\n
-        Guilherme Gorgulho, Humberto Antonio, Jefferson Jesus, Stephanie Dorneles, Thais Freitas,\n
-        Natasha Amaral, Luana Leal, Darly Vieira, Vânia Zoncamaro, Eduardo Gondim.`
+        Guilherme Gorgulho, Humberto Antonio, Jefferson Jesus, Sthefannie Dorneles, Thais Freitas,\n
+        Natasha Amaral, Luana Leal, Darly Vieira, Vânia Zancanaro, Eduardo Gondim,\n
+        Katia Ganges, Arthur Baccam, Valentim Santos.`
 
       return (
         <Fragment>
@@ -60,9 +61,9 @@ class Elenco extends Component {
                 </div>
               </div>
               <div className="direcao">
-                <p>Assistentes de direção:</p>
+                <p><strong>Assistentes de direção:</strong></p>
                 <span>Simone Guimarães e Samuel Alves</span>
-                <p>Direção:</p>
+                <p><strong>Direção:</strong></p>
                 <span>Niveo Diegues</span>
               </div>
             </div>
