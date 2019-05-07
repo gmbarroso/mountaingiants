@@ -10,6 +10,7 @@
   display: flex;
   padding: 16px 16px 48px;
   justify-content: center;
+  flex-direction: column;
 }
 
 .quemSomos {
@@ -21,6 +22,7 @@
 .aOficina, .oGrupo {
   font-size: 16px;
   width: 700px;
+  text-align: center;
 }
 
 .artistas {
@@ -36,22 +38,35 @@
   text-align: center;
 }
 
+.h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.todos, .trupe, .vila {
+  width: 500px;
+  padding: 16px 16px;
+}
+
 @media screen and (max-width: 768px) {
   .elencoDiv {
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .elencoDiv {
-    display: flex;
-    padding: 16px 16px;
-    align-items: center;
-    justify-content: space-around;
   }
 
   .aOficina, .oGrupo {
     font-size: 16px;
     width: 350px;
+  }
+
+  .figurino1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .todos, .trupe, .vila {
+    width: 300px;
+    padding: 16px 16px;
   }
 }

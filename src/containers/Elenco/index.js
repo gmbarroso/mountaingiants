@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from 'react'
 
+import todos from '../../img/todos.JPG'
+import trupe from '../../img/trupe.JPG'
+import vila from '../../img/vila.JPG'
+
 import './style.css'
 
 class Elenco extends Component {   
@@ -7,22 +11,22 @@ class Elenco extends Component {
     render () {
       let text = `
           O Grupo Tece foi fundado em 2014, com a intenção de atender a demanda de artistas que não tinham espaço ou\n
-          ou representação coletiva. Onde podemos produzir nossos Projetos através de pesquisa de linguagem, dramaturgia\n
+          representação coletiva. Onde podemos produzir nossos Projetos através de pesquisa de linguagem, dramaturgia\n
           e experimentação cênicas, fortalecendo nosso repertório. E, sobretudo, nos legitimar como coletivo de artistas em\n
-          busca de maner uma continuidade de trabalho em projetos teatrais.`
+          busca de manter uma continuidade de trabalho em projetos teatrais.`
       
       let aOficina = `
       A Oficina de Atores é um curso de teatro com escolas no Rio de Janeiro - RJ, São Paulo - SP, Jundiaí - SP, Santos - SP\n
       e Campinas - SP. O objetivo do curso é desenvolver referenciais para as práticas vocais e físicas dos alunos, assim como\n
-      reconhecer e suavizar suas dificuldades, estimular suas potencialidades e aumentar sua extensão vocal e flexibilidad\n
+      reconhecer e suavizar suas dificuldades, estimular suas potencialidades e aumentar sua extensão vocal e flexibilidade\n
       corporal.\n
       Possibilitar ao aluno o conhecimento de estilos variados de atuação, assim como a análise de criação de personagens e\n
       estudo de textos dramáticos. Instigar o lado "ator-criador" de cada aluno.`
 
       let elenco = `
         Alberto Paulo, Jéssica Bispo, João  Porto, Guilherme Barroso,\n
-        Amanda Martins, Gisele Rebello, Jéssica Lopes, Mariana Brasil, Bianca Paixão, Maysa Martins, Kelly Danielle,\n
-        Guilherme Gorgulho, Humberto Antonio, Jefferson Jesus, Sthefannie Dorneles, Thais Freitas,\n
+        Amanda Morais, Gisele Rebello, Jéssica Lopes, Mariana Brasil, Bianca Paixão, Maysa Martins, Kelly Danielle,\n
+        Guilherme Gorgulho, Humberto Antonio, Jefferson Jesus, Sthefannie Dorneles, Thays Freitas,\n
         Natasha Amaral, Luana Leal, Darly Vieira, Vânia Zancanaro, Eduardo Gondim,\n
         Katia Ganges, Arthur Baccam, Valentim Santos.`
 
@@ -65,6 +69,15 @@ class Elenco extends Component {
                 <span>Simone Guimarães e Samuel Alves</span>
                 <p><strong>Direção:</strong></p>
                 <span>Niveo Diegues</span>
+              </div>
+            </div>
+            <br /><br /><br /><br />
+            <h2 className="h2">Nossas experimentações de figurino</h2>
+            <div className="figurinoDiv">
+              <div className="figurino1">
+                <img src={trupe} alt="trupe" className="trupe"></img>
+                <img src={todos} alt="todos" className="todos"></img>
+                <img src={vila} alt="vila" className="vila"></img>
               </div>
             </div>
           </div>
