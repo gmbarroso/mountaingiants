@@ -11,6 +11,7 @@ import Footer from '../../containers/Footer'
 
 import {
   Route,
+  Switch,
   withRouter,
 } from 'react-router-dom'
 import { compose } from 'ramda'
@@ -24,12 +25,14 @@ class Root extends Component {
     return (
       <Fragment>
         <Header />
-        <Route exact path="/" component={Home} />
-        <Route path="/obra" component={Obra} />
-        <Route path="/autor" component={Autor} />
-        <Route path="/elenco" component={Elenco} />
-        <Route path="/inspiracoes" component={Inspirations} />
-        <Route path="/gigantes" component={Giants} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/obra" component={Obra} />
+            <Route path="/autor" component={Autor} />
+            <Route path="/elenco" component={Elenco} />
+            <Route path="/inspiracoes" component={Inspirations} />
+            <Route path="/gigantes" component={Giants} />
+          </Switch>
         <Footer />
       </Fragment>
     )
