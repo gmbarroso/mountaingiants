@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types'
 
 import facebook from '../../img/facebook_icon.svg'
 import instagram from '../../img/Instagram_logo.svg'
@@ -52,7 +51,7 @@ class Header extends Component {
   render () {
     return (
       <div className="header">
-        <h1>Grupo Tece</h1>
+        <h1>Grupo TECE</h1>
         <div className="links">
           <span className="link" onClick={this.onHomeClick} >Home</span>
           <span className="link" onClick={this.onObraClick}>Obra</span>
@@ -77,11 +76,5 @@ class Header extends Component {
     )
   }
 }
-
-// Header.propTypes = {
-//   history: PropTypes.shape({
-//     push: PropTypes.func.isRequired,
-//   }).isRequired,
-// }
 
 export default enhance(Header);
