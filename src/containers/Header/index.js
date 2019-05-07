@@ -26,7 +26,7 @@ class Header extends Component {
   }
 
   onHomeClick () {
-    this.props.history.push('/')
+    this.props.history.push('/mountaingiants')
   }
 
   onObraClick () {
