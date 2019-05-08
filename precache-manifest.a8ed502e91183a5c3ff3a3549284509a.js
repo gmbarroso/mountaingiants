@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "eb7266dce3a4ac1f8e3d438b507bc66a",
-    "url": "/mountaingiants/static/media/giantsbr1.eb7266dc.jpg"
+    "revision": "2ade65d2828d8b88d293a7f96b517e90",
+    "url": "/mountaingiants/static/media/giantsit2.2ade65d2.jpg"
   },
   {
-    "revision": "7f1750a6fb74d028a9cd",
-    "url": "/mountaingiants/static/css/main.71c93913.chunk.css"
+    "revision": "3d8f9085f4a37284cdfd",
+    "url": "/mountaingiants/static/css/main.28dc0355.chunk.css"
   },
   {
     "revision": "c6d1be7adc8990ca1463",
     "url": "/mountaingiants/static/js/runtime~main.7555e6c6.js"
   },
   {
-    "revision": "1e909953b2c7159d1f71",
-    "url": "/mountaingiants/static/js/2.0acac2f8.chunk.js"
+    "revision": "116a67a59f6dfcd816c5",
+    "url": "/mountaingiants/static/js/2.e4a24924.chunk.js"
   },
   {
     "revision": "3ae13bc863b5aebd90257119aa4b22f0",
@@ -44,20 +44,32 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/pirandello3.474f2961.jpg"
   },
   {
+    "revision": "ebc9ec0e025b3966e6c2595e4fe6ab0a",
+    "url": "/mountaingiants/static/media/todos.ebc9ec0e.JPG"
+  },
+  {
+    "revision": "f5324c4232438804eb0d859205a89672",
+    "url": "/mountaingiants/static/media/trupe.f5324c42.JPG"
+  },
+  {
+    "revision": "4b863c39798bb6d6fa411db4d58cbaed",
+    "url": "/mountaingiants/static/media/vila.4b863c39.JPG"
+  },
+  {
     "revision": "5830ea909ee012f917468a89ee3c871d",
     "url": "/mountaingiants/static/media/giantsit1.5830ea90.jpg"
   },
   {
-    "revision": "2ade65d2828d8b88d293a7f96b517e90",
-    "url": "/mountaingiants/static/media/giantsit2.2ade65d2.jpg"
+    "revision": "3d8f9085f4a37284cdfd",
+    "url": "/mountaingiants/static/js/main.9a32518f.chunk.js"
   },
   {
     "revision": "79c5bf56db42419647040975ecdbb736",
     "url": "/mountaingiants/static/media/giantsit3.79c5bf56.jpg"
   },
   {
-    "revision": "7f1750a6fb74d028a9cd",
-    "url": "/mountaingiants/static/js/main.cb1f7b19.chunk.js"
+    "revision": "eb7266dce3a4ac1f8e3d438b507bc66a",
+    "url": "/mountaingiants/static/media/giantsbr1.eb7266dc.jpg"
   },
   {
     "revision": "ebfe3c66ffe591c05778679704f7a7c7",
@@ -104,11 +116,11 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/giant6.f0ebee6c.jpg"
   },
   {
-    "revision": "90a1f34b4598c8cae8d9fff0e9589b57",
-    "url": "/mountaingiants/static/media/elenco.90a1f34b.jpeg"
+    "revision": "d57775b80bcd5139dd31b67846ad38b5",
+    "url": "/mountaingiants/static/media/elenco.d57775b8.png"
   },
   {
-    "revision": "be007a3e5e8ac124c1cbd1e73bbc1e43",
+    "revision": "ab70be127572bb4685efad565b2d0d0e",
     "url": "/mountaingiants/index.html"
   }
 ];
