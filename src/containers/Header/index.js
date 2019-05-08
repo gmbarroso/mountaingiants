@@ -57,7 +57,7 @@ class Header extends Component {
           <span className="link" onClick={this.onObraClick}>Obra</span>
           <span className="link" onClick={this.onAutorClick}>Autor</span>
           <span className="link" onClick={this.onGiantsClick}>Os Gigantes</span>
-          <span className="link" onClick={this.onElencoClick}>Elenco</span>
+          <span className="link" onClick={this.onElencoClick}>Espetáculo</span>
           <span className="link" onClick={this.onInspirationsClick}>Inspirações</span>
         </div>
         <div className="logos">

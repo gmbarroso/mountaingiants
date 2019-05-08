@@ -53,7 +53,7 @@ class Home extends Component {
             <strong>Autor</strong>
           </div>
           <div className="card elenco" onClick={this.onElencoClick}>
-            <strong>Elenco</strong>
+            <strong>Espetáculo</strong>
           </div>
         </div>
         <div className="card-group">

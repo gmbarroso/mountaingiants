@@ -3,6 +3,7 @@ import React, { Component, Fragment } from 'react'
 import todos from '../../img/todos.JPG'
 import trupe from '../../img/trupe.JPG'
 import vila from '../../img/vila.JPG'
+import filipeta from '../../img/filipeta.png'
 
 import './style.css'
 
@@ -54,6 +55,18 @@ class Elenco extends Component {
                   })
                 }
               </div>
+              <div className="filipeta">
+                <img src={filipeta} alt="filipeta" className="filipetaImg"></img>
+                <p className="filipetaDirection"><strong>Direção: Niveo Diegues</strong></p>
+                <span className="filipetaElenco">Elenco: Grupo TECE e Oficina de Atores de São Paulo - Pinheiros</span>
+                <div>
+                  <span><strong>TEATRO MARIA DELLA COSTA</strong> - Rua Paim, 72 - Bela Vista - São Paulo</span>
+                  <span><strong>Estreia:</strong> 15 de Junho às 19h30</span>
+                  <span><strong>TEMPORADA:</strong> (Sábados e Domingos)</span>
+                  <span><strong>Informações:</strong> (11) 2384-9557</span>
+                </div>
+              </div>
+              <br /><br />
               <h3>Elenco</h3>
               <div className="justifyContent">
                 <div className="artistas">

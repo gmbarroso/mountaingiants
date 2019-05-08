@@ -1,9 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
 .title {
   text-align: center;
 }
 
 .title > h3 {
   margin: 0;
+}
+
+.filipeta {
+  display: flex;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  align-items: center;
+  padding: 0px 0px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+  flex-direction: column;
+}
+
+.filipetaImg {
+  width: 400px;
+}
+
+.filipetaDirection {
+  margin: 2px 0px -8px;
+  font-size: 22px;
+}
+
+.filipetaElenco {
+  font-size: 14px;
+  margin: 0px 0px 16px;
+}
+
+.filipeta > div {
+  display: flex;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
 }
 
 .elencoDiv {
@@ -20,6 +55,7 @@
 }
 
 .aOficina, .oGrupo {
+  padding: 4px 0px 48px;
   font-size: 16px;
   width: 700px;
   text-align: center;
@@ -62,6 +98,40 @@
   .aOficina, .oGrupo {
     font-size: 16px;
     width: 350px;
+  }
+
+  .filipeta {
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    align-items: center;
+    padding: 0px 0px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+    flex-direction: column;
+  }
+  
+  .filipetaImg {
+    width: 350px;
+  }
+  
+  .filipetaDirection {
+    margin: 2px 0px -8px;
+    font-size: 20px;
+  }
+  
+  .filipetaElenco {
+    font-size: 12px;
+    margin: 0px 0px 16px;
+  }
+  
+  .filipeta > div {
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
   }
 
   .figurino1 {
