@@ -1,6 +1,6 @@
 .home {
   display: flex;
-  padding: 56px 16px;
+  padding: 64px 16px;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;

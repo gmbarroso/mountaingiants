@@ -11,7 +11,7 @@
 
 .obraDiv {
   display: flex;
-  padding: 16px 16px;
+  padding: 64px 16px;
   align-items: center;
   justify-content: space-around;
 }

@@ -11,7 +11,7 @@
 
 .autorDiv {
   display: flex;
-  padding: 16px 16px;
+  padding: 64px 16px;
   justify-content: space-around;
 }
 

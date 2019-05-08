@@ -42,7 +42,7 @@ class Giants extends Component {
               })
             }
           </div>
-          <div className="creatures">
+          <div className="creatures2">
             {
               pirandelloDefinition.split("\n").map((i,key) => {
                 return <span key={key}>{i}</span>;
