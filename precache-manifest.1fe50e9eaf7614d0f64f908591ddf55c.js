@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/giantsit2.2ade65d2.jpg"
   },
   {
-    "revision": "3d8f9085f4a37284cdfd",
-    "url": "/mountaingiants/static/css/main.28dc0355.chunk.css"
+    "revision": "77a8a904c2e14553ca6e",
+    "url": "/mountaingiants/static/css/main.078e2930.chunk.css"
   },
   {
     "revision": "c6d1be7adc8990ca1463",
     "url": "/mountaingiants/static/js/runtime~main.7555e6c6.js"
   },
   {
-    "revision": "116a67a59f6dfcd816c5",
-    "url": "/mountaingiants/static/js/2.e4a24924.chunk.js"
+    "revision": "3750d0669a57411b4fb5",
+    "url": "/mountaingiants/static/js/2.faff6000.chunk.js"
   },
   {
     "revision": "3ae13bc863b5aebd90257119aa4b22f0",
@@ -56,12 +56,16 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/vila.4b863c39.JPG"
   },
   {
+    "revision": "fb0eada2e9ad2e08e8488895ce1e4ac8",
+    "url": "/mountaingiants/static/media/filipeta.fb0eada2.png"
+  },
+  {
     "revision": "5830ea909ee012f917468a89ee3c871d",
     "url": "/mountaingiants/static/media/giantsit1.5830ea90.jpg"
   },
   {
-    "revision": "3d8f9085f4a37284cdfd",
-    "url": "/mountaingiants/static/js/main.9a32518f.chunk.js"
+    "revision": "77a8a904c2e14553ca6e",
+    "url": "/mountaingiants/static/js/main.a62cab47.chunk.js"
   },
   {
     "revision": "79c5bf56db42419647040975ecdbb736",
@@ -120,7 +124,7 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/elenco.d57775b8.png"
   },
   {
-    "revision": "ab70be127572bb4685efad565b2d0d0e",
+    "revision": "c296502e6ab7978381a159b55d02c9fc",
     "url": "/mountaingiants/index.html"
   }
 ];
