@@ -12,7 +12,7 @@ const Footer = () => {
             <br />
             <p>Teatro Maria Della Costa</p><br />
             <p>Rua Paim, 72, Bela Vista - SP</p><br />
-            <p>Classificação: xx anos</p>
+            <p>Classificação: 14 anos</p>
           </div>
           <div className="schedule">
             <strong>Dias e horários:</strong>

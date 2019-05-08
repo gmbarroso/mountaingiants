@@ -22,9 +22,9 @@ class Autor extends Component {
       `
 
       let subtext = `
-      Por ter feito parte do aprtido fascista, Pirandello foi conquistado\n
+      Por ter feito parte do partido fascista, Pirandello foi conquistado\n
       pelo discurso populista e patriótico de Mussolini. E quando se deu\n
-      conta, percebeu o quanto àquela sociedade italiana estava fazendo\n
+      conta, percebeu o quanto aquela sociedade italiana estava fazendo\n
       um movimento contrário à arte vanguarda. 
       `
 
@@ -40,7 +40,7 @@ class Autor extends Component {
        alter-ego do autor. Nele é possível ver a sua paixão pelo teatro,\n
        ao mesmo tempo que age como um opressor ao impor medo quanto\n
        à dúvida do que são os gigantes da montanha para a trupe de Ilse.\n
-       Sendo um mago sábio conhecedor da vida, Cortone expõem aos\n
+       Sendo um mago sábio conhecedor da vida, Cotrone expõem aos\n
        moradores da vila e aos novos entrantes a sua verdadeira opinião\n
        quanto à arte atual.
       `

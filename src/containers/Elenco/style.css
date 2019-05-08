@@ -39,8 +39,14 @@
 }
 
 .h2 {
-  margin: 0;
+  margin-bottom: 16px;
   text-align: center;
+}
+
+.figurinoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .todos, .trupe, .vila {
