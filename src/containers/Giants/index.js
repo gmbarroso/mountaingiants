@@ -14,7 +14,7 @@ class Giants extends Component {
       let giantsDefinition = `
         Segundo a mitologia grega, os gigantes eram seres de grande força e agressão. Segundo a mitologia romana\n
         os gigantes são Deuses e divindades. E, por último, segundo a mitologia nórdica, os Jotun (como são chamados\n
-        os gigantes), são uma raça mitológica com força sobre-humana e se manifestam sempre em oposição aosdeuses.\n
+        os gigantes), são uma raça mitológica com força sobre-humana e se manifestam sempre em oposição aos deuses.\n
         Independente da mitologia, em todas elas os gigantes são sempre retratados de uma maneira grotesca, seres\n
         diferentes, peculiares, com corpos e posturas diferentes, bem caricatos.
       `
