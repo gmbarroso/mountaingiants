@@ -16,14 +16,14 @@ class Inspirations extends Component {
     render () {
       let text = `
         Este espaço ficou reservado para mostrarmos nossas inspirações que buscamos para a montagem. Abaixo\n
-        você verá outros grupos, de diferentes países, que também montaram "Os Gigantes da montanha. Cada\n
+        você verá outros grupos, de diferentes países, que também montaram "Os Gigantes da montanha". Cada\n
         um com suas peculiaridades.
       `
 
       let moreText = `
-      Como grupo, muito nos interessa saber o que outras escolas e grupos de teatro fizeram para essa\n
-      montar essa peça. A parte da pesquisa é muito importante para buscarmos nossas instenções. E\n
-      por mais distante que esse grupo esteja em termos geográficos, a parte visual nos traz umas grande\n
+      Como grupo, muito nos interessa saber o que outras escolas e grupos de teatro fizeram para\n
+      montar essa peça. A pesquisa é muito importante para buscarmos nossas instenções. E\n
+      por mais distante que esse grupo esteja em termos geográficos, a parte visual nos traz uma grande\n
       ideia da busca desses respectivos grupos para suas personagens.
     `
       
