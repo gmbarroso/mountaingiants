@@ -5,12 +5,7 @@ import livroBr from '../../img/livro_ptbr.jpg'
 
 import './style.css'
 
-class Obra extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-    
+class Obra extends Component {    
     render () {
       let text = `
       "Talvez eu também pudesse ter sido um grande homem, Condessa. Renunciei.\n
