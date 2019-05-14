@@ -1,13 +1,8 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-// import classNames from 'classnames'
 import { isNil } from 'ramda'
 
-// import ThemeConsumer from '../../ThemeConsumer'
-
 import './style.css'
-
-// const consumeTheme = ThemeConsumer('UIButton')
 
 const createRipple = (e) => {
   const {
@@ -71,7 +66,6 @@ class Button extends PureComponent {
       children,
       icon,
       iconAlignment,
-      theme,
     } = this.props
 
     const {
@@ -81,15 +75,8 @@ class Button extends PureComponent {
       rippleY,
     } = this.state
 
-    // const buttonClasses = classNames(
-    //   theme.button,
-    //   {
-    //     [theme.iconButton]: !isNil(icon) && isNil(children),
-    //   }
-    // )
-
     return (
-      <button
+      <span
         className={"button"}
         onClick={this.handleClick}
       >
@@ -106,7 +93,7 @@ class Button extends PureComponent {
             width: rippleWidth,
           }}
         />
-      </button>
+      </span>
     )
   }
 }
