@@ -63,7 +63,11 @@ class Header extends Component {
           <Button onClick={this.onInspirationsClick}>Inspirações</Button>
         </div>
         <div className="logos">
-          <a href="./Home">
+          <a 
+            href="https://www.facebook.com/events/519848468546844/?ti=icl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={facebook} className="facebookLogo" alt="logo" />
           </a>
           <a
