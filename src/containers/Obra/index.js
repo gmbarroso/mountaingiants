@@ -5,23 +5,17 @@ import livroBr from '../../img/livro_ptbr.jpg'
 
 import './style.css'
 
-class Obra extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-    
+class Obra extends Component {    
     render () {
       let text = `
-          "Talvez eu também pudesse ter sido um grande homem, Con-\n
-      dessa. Renunciei. Despojei-me de tudo: decoro, honra, digni-\n
-      dade, virtude; todas as coisas que, pela graça de Deus, os ani-\n
-      mais ignoram em sua pia inocência. Liberada de todos estes \n
+      "Talvez eu também pudesse ter sido um grande homem, Condessa. Renunciei.\n
+      Despojei-me de tudo: decoro, honra, dignidade, virtude; todas as coisas que,\n
+      pela graça de Deus, os animais ignoram em sua pia inocência. Liberada de todos estes \n
       embaraçosos, nossa alma se engrandece como o ar, plena de sol ou \n
       de nuvens, aberta a todos os clarões, abandonada a todos os \n
-      eventos, supéflua e misteriosa matéria de prodígios que nos en-\n
-      leva e nos dispersa em maravilhosas evasões. Olhamos para a\n
-      terra, e que tristeza! Talvez, lá embaixo, haja alguém que acredi-\n
+      eventos, supéflua e misteriosa matéria de prodígios que nos enleva\n
+      e nos dispersa em maravilhosas evasões. Olhamos para a\n
+      terra, e que tristeza! Talvez, lá embaixo, haja alguém que acredita\n
       estar vivendo a nossa vida; mas não é verdade. Nenhum de\n
       nós está no corpo em que o outro nos vê; mas na alma que fala,\n
       e não se sabe de onde; ninguém pode saber: aparência em meio\n
@@ -38,15 +32,10 @@ class Obra extends Component {
         to Simoni.`
 
       let explicacao = `
-            Esta obra foi publicada por etapas e as primeiras notícias\n
-        de sua composição vieram em setembro de 1928, quando Piran-\n
-        dello estava partindo para a Alemanha, país onde viveu até\n
-        1930.\n
-            No entanto, esta foi a última produção pirandelliana e uma\n
-        verdadeira síntese do que é considerado a sua melhor poesia,\n
-        pois retrata questões sobre a vida e a arte. "Os gigantes" nunca\n
-        foi terminada. Composta por três atos, o último foi ditado à seu\n
-        filho no leito de morte.`
+            Esta obra foi publicada por etapas. E as primeiras notícias\n
+        de sua composição vieram em setembro de 1928, quando Pirandello\n
+        estava partindo para a Alemanha, país onde viveu até\n
+        1930.\n`
 
         let maisExplicacao = `
         No entanto, esta foi a última produção pirandelliana e uma\n
@@ -59,7 +48,7 @@ class Obra extends Component {
         "Quanto ao nível poético, devo dizer que a poesia de \n
         Pirandello é transbordante a ponto de não se limitar às falas dos\n
         personagens, espraiando-se pelas numerodas e extensas rubricas\n
-        iniciais de cada episódeio que, além de fornecerem indicações de \n
+        iniciais de cada episódio que, além de fornecerem indicações de \n
         cena, reiteram o lirismo que perpassa o texto como um todo.`
       return (
         <Fragment>
@@ -99,7 +88,7 @@ class Obra extends Component {
               <div className="explicacao">
                 {
                   explicacao.split("\n").map((i,key) => {
-                    return <i key={key}>{i}</i>;
+                    return <span key={key}>{i}</span>;
                   })
                 }
               </div>
@@ -107,7 +96,7 @@ class Obra extends Component {
               <div className="explicacao">
                 {
                   maisExplicacao.split("\n").map((i,key) => {
-                    return <i key={key}>{i}</i>;
+                    return <span key={key}>{i}</span>;
                   })
                 }
               </div>

@@ -1,0 +1,25 @@
+.button {
+  margin: 4px;
+  padding: 8px 36px;
+  border-radius: 4px;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #14100F;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    text-align: center;
+    padding: 8px 16px;
+  }
+
+  .button:first-child {
+    order: 1;
+  }
+}

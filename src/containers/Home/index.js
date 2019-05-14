@@ -5,6 +5,8 @@ import {
 } from 'react-router-dom'
 import { compose } from 'ramda'
 
+import Card from '../../components/Card'
+
 import cartaz from '../../img/cartaz.jpeg'
 
 // import LeafletMap from '../Map'

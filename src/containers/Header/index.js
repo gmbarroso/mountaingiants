@@ -8,6 +8,8 @@ import {
 } from 'react-router-dom'
 import { compose } from 'ramda'
 
+import Button from '../../components/Button'
+
 import './style.css'
 
 const enhance = compose(withRouter)
@@ -53,15 +55,19 @@ class Header extends Component {
       <div className="header">
         <h1>Grupo TECE</h1>
         <div className="links">
-          <span className="link" onClick={this.onHomeClick} >Home</span>
-          <span className="link" onClick={this.onObraClick}>Obra</span>
-          <span className="link" onClick={this.onAutorClick}>Autor</span>
-          <span className="link" onClick={this.onGiantsClick}>Os Gigantes</span>
-          <span className="link" onClick={this.onElencoClick}>O Espetáculo</span>
-          <span className="link" onClick={this.onInspirationsClick}>Inspirações</span>
+          <Button onClick={this.onHomeClick} >Home</Button>
+          <Button onClick={this.onObraClick}>Obra</Button>
+          <Button onClick={this.onAutorClick}>Autor</Button>
+          <Button onClick={this.onGiantsClick}>Os Gigantes</Button>
+          <Button onClick={this.onElencoClick}>O Espetáculo</Button>
+          <Button onClick={this.onInspirationsClick}>Inspirações</Button>
         </div>
         <div className="logos">
-          <a href="./Home">
+          <a 
+            href="https://www.facebook.com/events/519848468546844/?ti=icl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={facebook} className="facebookLogo" alt="logo" />
           </a>
           <a
