@@ -5,6 +5,8 @@ import {
 } from 'react-router-dom'
 import { compose } from 'ramda'
 
+import cartaz from '../../img/cartaz.jpeg'
+
 // import LeafletMap from '../Map'
 
 import './style.css'
@@ -53,7 +55,7 @@ class Home extends Component {
             <strong>Autor</strong>
           </div>
           <div className="card elenco" onClick={this.onElencoClick}>
-            <strong>Espetáculo</strong>
+            <strong>O Espetáculo</strong>
           </div>
         </div>
         <div className="card-group">
@@ -63,6 +65,10 @@ class Home extends Component {
           <div className="card gigantes" onClick={this.onGiantsClick}>
             <strong>Os Gigantes</strong>
           </div>
+        </div>
+        <div className="cartaz">
+          <h1>Divulgação</h1>
+          <img src={cartaz} alt="cartaz" className="cartaz"></img>
         </div>
         <div>
           {/* <h2>Localização</h2> */}

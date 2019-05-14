@@ -69,6 +69,21 @@
   background-image: url("../../img/livro.jpg");
 }
 
+.cartaz {
+  display: flex;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  align-items: center;
+  margin: 48px 0px;
+  flex-direction: column;
+  background-color: none;
+}
+
+.cartaz > img {
+  margin: 0px;
+  width: 630px;
+  box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+}
+
 .map {
   width: 300px;
 }
@@ -82,5 +97,10 @@
   .card-group {
     display: flex;
     flex-direction: column;
+  }
+
+  .cartaz > img {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
   }
 }
