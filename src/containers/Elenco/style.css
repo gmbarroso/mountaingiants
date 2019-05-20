@@ -85,7 +85,7 @@
   align-items: center;
 }
 
-.todos, .trupe, .vila {
+.figurino1 > img {
   width: 500px;
   padding: 16px 16px;
 }
@@ -141,7 +141,7 @@
     flex-direction: column;
   }
 
-  .todos, .trupe, .vila {
+  .figurino1 > img {
     width: 300px;
     padding: 16px 16px;
   }

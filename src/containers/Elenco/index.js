@@ -4,6 +4,16 @@ import todos from '../../img/todos.JPG'
 import trupe from '../../img/trupe.JPG'
 import vila from '../../img/vila.JPG'
 import filipeta from '../../img/filipeta.png'
+import condeilse from '../../img/condeilse.JPG'
+import cotrone from '../../img/cotrone.JPG'
+import madalena from '../../img/madalena.JPG'
+import todos1 from '../../img/todos1.JPG'
+import todos2 from '../../img/todos2.JPG'
+import oradores from '../../img/oradores.JPG'
+import sgriciamara from '../../img/sgriciamara.JPG'
+import maquiagem1 from '../../img/maquiagem1.JPG'
+import maquiagem2 from '../../img/maquiagem2.JPG'
+
 
 import './style.css'
 
@@ -88,6 +98,15 @@ class Elenco extends Component {
             <h2 className="h2">Nossas experimentações de figurino</h2>
             <div className="figurinoDiv">
               <div className="figurino1">
+                <img src={cotrone} alt="cotrone" className="cotrone"></img>
+                <img src={condeilse} alt="condeilse" className="condeilse"></img>
+                <img src={oradores} alt="oradores" className="oradores"></img>
+                <img src={madalena} alt="madalena" className="madalena"></img>
+                <img src={sgriciamara} alt="sgriciamara" className="sgriciamara"></img>
+                <img src={maquiagem1} alt="maquiagem1" className="maquiagem1"></img>
+                <img src={maquiagem2} alt="maquiagem2" className="maquiagem2"></img>
+                <img src={todos1} alt="todos1" className="todos1"></img>
+                <img src={todos2} alt="todos2" className="todos2"></img>
                 <img src={trupe} alt="trupe" className="trupe"></img>
                 <img src={todos} alt="todos" className="todos"></img>
                 <img src={vila} alt="vila" className="vila"></img>
