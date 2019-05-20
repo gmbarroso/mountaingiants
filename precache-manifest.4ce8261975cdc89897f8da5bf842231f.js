@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2ade65d2828d8b88d293a7f96b517e90",
-    "url": "/mountaingiants/static/media/giantsit2.2ade65d2.jpg"
+    "revision": "ee27e5fe2c64202e0bbcc77c3c8b7020",
+    "url": "/mountaingiants/static/media/sgriciamara.ee27e5fe.JPG"
   },
   {
-    "revision": "caa284e9ebb30c2b259e",
-    "url": "/mountaingiants/static/css/main.94d47f8b.chunk.css"
+    "revision": "f165c8c27422a008e644",
+    "url": "/mountaingiants/static/css/main.cc4d58c4.chunk.css"
   },
   {
     "revision": "c6d1be7adc8990ca1463",
     "url": "/mountaingiants/static/js/runtime~main.7555e6c6.js"
   },
   {
-    "revision": "d8bf4313027dd867a148",
-    "url": "/mountaingiants/static/js/2.c65cb1b6.chunk.js"
+    "revision": "5a49ad930b0c62925ac7",
+    "url": "/mountaingiants/static/js/2.b60d5c59.chunk.js"
   },
   {
     "revision": "3ae13bc863b5aebd90257119aa4b22f0",
@@ -60,12 +60,48 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/filipeta.fb0eada2.png"
   },
   {
+    "revision": "e20d907a13ff15227a895e88e2e0ecce",
+    "url": "/mountaingiants/static/media/condeilse.e20d907a.JPG"
+  },
+  {
+    "revision": "b5fdd9ddace7f45eefcc002b12cd6f80",
+    "url": "/mountaingiants/static/media/cotrone.b5fdd9dd.JPG"
+  },
+  {
+    "revision": "52bf147d6a1e22f59e09c29b3759fa6a",
+    "url": "/mountaingiants/static/media/madalena.52bf147d.JPG"
+  },
+  {
+    "revision": "7db075d36badbbe984ff4cd763083fa1",
+    "url": "/mountaingiants/static/media/todos1.7db075d3.JPG"
+  },
+  {
+    "revision": "a9627d18a9b5774e61072292e4a44b30",
+    "url": "/mountaingiants/static/media/todos2.a9627d18.JPG"
+  },
+  {
+    "revision": "21468c02f502501f083026d3c2717fd8",
+    "url": "/mountaingiants/static/media/oradores.21468c02.JPG"
+  },
+  {
+    "revision": "f165c8c27422a008e644",
+    "url": "/mountaingiants/static/js/main.dcf35dd0.chunk.js"
+  },
+  {
+    "revision": "e741086c6df877093065c3f90a66aa5c",
+    "url": "/mountaingiants/static/media/maquiagem1.e741086c.JPG"
+  },
+  {
+    "revision": "38629555a21f6fedaba4fb667452c6fd",
+    "url": "/mountaingiants/static/media/maquiagem2.38629555.JPG"
+  },
+  {
     "revision": "5830ea909ee012f917468a89ee3c871d",
     "url": "/mountaingiants/static/media/giantsit1.5830ea90.jpg"
   },
   {
-    "revision": "caa284e9ebb30c2b259e",
-    "url": "/mountaingiants/static/js/main.26448e2e.chunk.js"
+    "revision": "2ade65d2828d8b88d293a7f96b517e90",
+    "url": "/mountaingiants/static/media/giantsit2.2ade65d2.jpg"
   },
   {
     "revision": "79c5bf56db42419647040975ecdbb736",
@@ -128,7 +164,7 @@ self.__precacheManifest = [
     "url": "/mountaingiants/static/media/elenco.d57775b8.png"
   },
   {
-    "revision": "bedc2a7b3cc6276f0c3c7ba997eb11e9",
+    "revision": "4fa58e5f138e169040fb912927921219",
     "url": "/mountaingiants/index.html"
   }
 ];
