@@ -27,7 +27,7 @@ class Elenco extends Component {
       let elenco = `
         Alberto Paulo, Jéssica Bispo, João  Porto, Guilherme Barroso,\n
         Amanda Morais, Gisele Rebello, Jéssica Lopes, Mariana Brasil, Bianca Paixão, Maysa Martins, Kelly Danielle,\n
-        Guilherme Gorgulho, Humberto Antonio, Jefferson Jesus, Sthefannie Dorneles, Thays Freitas,\n
+        Guilherme Gorgulho, Humberto Grisi, Jefferson Jesus, Sthefannie Dorneles, Thays Freitas,\n
         Natasha Amaral, Luana Leal, Darly Vieira, Vânia Zancanaro, Eduardo Gondim,\n
         Katia Ganges, Arthur Baccam, Valentim Santos.`
 
