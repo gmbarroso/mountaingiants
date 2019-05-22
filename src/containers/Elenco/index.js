@@ -101,12 +101,18 @@ class Elenco extends Component {
                 <img src={cotrone} alt="cotrone" className="cotrone"></img>
                 <img src={condeilse} alt="condeilse" className="condeilse"></img>
                 <img src={oradores} alt="oradores" className="oradores"></img>
+              </div>
+              <div className="figurino2">
                 <img src={madalena} alt="madalena" className="madalena"></img>
                 <img src={sgriciamara} alt="sgriciamara" className="sgriciamara"></img>
                 <img src={maquiagem1} alt="maquiagem1" className="maquiagem1"></img>
+              </div>
+              <div className="figurino3">
                 <img src={maquiagem2} alt="maquiagem2" className="maquiagem2"></img>
                 <img src={todos1} alt="todos1" className="todos1"></img>
                 <img src={todos2} alt="todos2" className="todos2"></img>
+              </div>
+              <div className="figurino4">
                 <img src={trupe} alt="trupe" className="trupe"></img>
                 <img src={todos} alt="todos" className="todos"></img>
                 <img src={vila} alt="vila" className="vila"></img>
