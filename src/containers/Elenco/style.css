@@ -91,6 +91,11 @@
   padding: 16px 16px;
 }
 
+.figurino5 > img, .figurino6 > img, .figurino7 > img, .figurino8 > img  {
+  width: 500px;
+  padding: 16px 16px;
+}
+
 @media screen and (max-width: 768px) {
   .elencoDiv {
     flex-direction: column;
@@ -143,6 +148,11 @@
   }
 
   .figurino1 > img, .figurino2 > img, .figurino3 > img, .figurino4 > img  {
+    width: 300px;
+    padding: 16px 16px;
+  }
+
+  .figurino5 > img, .figurino6 > img, .figurino7 > img, .figurino8 > img  {
     width: 300px;
     padding: 16px 16px;
   }
