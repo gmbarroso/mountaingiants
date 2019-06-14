@@ -13,6 +13,17 @@ import oradores from '../../img/oradores.JPG'
 import sgriciamara from '../../img/sgriciamara.JPG'
 import maquiagem1 from '../../img/maquiagem1.JPG'
 import maquiagem2 from '../../img/maquiagem2.JPG'
+import madalenatrio from '../../img/madalenatrio.JPG'
+import narradores2 from '../../img/narradores2.JPG'
+import palco from '../../img/palco.JPG'
+import palco2 from '../../img/palco2.JPG'
+import palco3 from '../../img/palco3.JPG'
+import palco4 from '../../img/palco4.JPG'
+import palco5 from '../../img/palco5.JPG'
+import palco6 from '../../img/palco6.JPG'
+import palco7 from '../../img/palco7.JPG'
+
+
 
 
 import './style.css'
@@ -98,21 +109,36 @@ class Elenco extends Component {
             <h2 className="h2">Nossas experimentações de figurino</h2>
             <div className="figurinoDiv">
               <div className="figurino1">
+                <img src={palco5} alt="palco5" className="palco5"></img>
+                <img src={palco6} alt="palco6" className="palco6"></img>
+                <img src={palco7} alt="palco7" className="palco7"></img>
+              </div>
+              <div className="figurino1">
+                <img src={palco2} alt="palco2" className="palco2"></img>
+                <img src={palco3} alt="palco3" className="palco3"></img>
+                <img src={palco4} alt="palco4" className="palco4"></img>
+              </div>
+              <div className="figurino1">
+                <img src={madalenatrio} alt="madalenatrio" className="madalenatrio"></img>
+                <img src={narradores2} alt="narradores2" className="narradores2"></img>
+                <img src={palco} alt="palco" className="palco"></img>
+              </div>
+              <div className="figurino4">
                 <img src={cotrone} alt="cotrone" className="cotrone"></img>
                 <img src={condeilse} alt="condeilse" className="condeilse"></img>
                 <img src={oradores} alt="oradores" className="oradores"></img>
               </div>
-              <div className="figurino2">
+              <div className="figurino5">
                 <img src={madalena} alt="madalena" className="madalena"></img>
                 <img src={sgriciamara} alt="sgriciamara" className="sgriciamara"></img>
                 <img src={maquiagem1} alt="maquiagem1" className="maquiagem1"></img>
               </div>
-              <div className="figurino3">
+              <div className="figurino6">
                 <img src={maquiagem2} alt="maquiagem2" className="maquiagem2"></img>
                 <img src={todos1} alt="todos1" className="todos1"></img>
                 <img src={todos2} alt="todos2" className="todos2"></img>
               </div>
-              <div className="figurino4">
+              <div className="figurino7">
                 <img src={trupe} alt="trupe" className="trupe"></img>
                 <img src={todos} alt="todos" className="todos"></img>
                 <img src={vila} alt="vila" className="vila"></img>
