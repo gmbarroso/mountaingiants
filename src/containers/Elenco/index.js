@@ -22,6 +22,19 @@ import palco4 from '../../img/palco4.JPG'
 import palco5 from '../../img/palco5.JPG'
 import palco6 from '../../img/palco6.JPG'
 import palco7 from '../../img/palco7.JPG'
+import peca1 from '../../img/peca1.JPG'
+import peca2 from '../../img/peca2.JPG'
+import peca3 from '../../img/peca3.JPG'
+import peca4 from '../../img/peca4.JPG'
+import peca5 from '../../img/peca5.JPG'
+import peca6 from '../../img/peca6.JPG'
+import peca7 from '../../img/peca7.JPG'
+import peca8 from '../../img/peca8.JPG'
+import peca9 from '../../img/peca9.JPG'
+import peca10 from '../../img/peca10.JPG'
+import peca11 from '../../img/peca11.JPG'
+import peca12 from '../../img/peca12.JPG'
+
 
 
 
@@ -106,19 +119,39 @@ class Elenco extends Component {
               </div>
             </div>
             <br /><br /><br /><br />
-            <h2 className="h2">Nossas experimentações de figurino</h2>
+            <h2 className="h2">Galeria de fotos</h2>
             <div className="figurinoDiv">
+              <div className="figurino1">
+                <img src={peca10} alt="peca10" className="peca10"></img>
+                <img src={peca11} alt="peca11" className="peca11"></img>
+                <img src={peca12} alt="peca12" className="peca12"></img>
+              </div>
+              <div className="figurino1">
+                <img src={peca7} alt="peca7" className="peca7"></img>
+                <img src={peca8} alt="peca8" className="peca8"></img>
+                <img src={peca9} alt="peca9" className="peca9"></img>
+              </div>
+              <div className="figurino1">
+                <img src={peca4} alt="peca4" className="peca4"></img>
+                <img src={peca5} alt="peca5" className="peca5"></img>
+                <img src={peca6} alt="peca6" className="peca6"></img>
+              </div>
+              <div className="figurino1">
+                <img src={peca1} alt="peca1" className="peca1"></img>
+                <img src={peca2} alt="peca2" className="peca2"></img>
+                <img src={peca3} alt="peca3" className="peca3"></img>
+              </div>
               <div className="figurino1">
                 <img src={palco5} alt="palco5" className="palco5"></img>
                 <img src={palco6} alt="palco6" className="palco6"></img>
                 <img src={palco7} alt="palco7" className="palco7"></img>
               </div>
-              <div className="figurino1">
+              <div className="figurino2">
                 <img src={palco2} alt="palco2" className="palco2"></img>
                 <img src={palco3} alt="palco3" className="palco3"></img>
                 <img src={palco4} alt="palco4" className="palco4"></img>
               </div>
-              <div className="figurino1">
+              <div className="figurino3">
                 <img src={madalenatrio} alt="madalenatrio" className="madalenatrio"></img>
                 <img src={narradores2} alt="narradores2" className="narradores2"></img>
                 <img src={palco} alt="palco" className="palco"></img>

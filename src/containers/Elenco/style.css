@@ -149,11 +149,11 @@
 
   .figurino1 > img, .figurino2 > img, .figurino3 > img, .figurino4 > img  {
     width: 300px;
-    padding: 16px 16px;
+    padding: 16px 16px 16px 32px;
   }
 
   .figurino5 > img, .figurino6 > img, .figurino7 > img, .figurino8 > img  {
     width: 300px;
-    padding: 16px 16px;
+    padding: 16px 16px 16px 32px;
   }
 }
