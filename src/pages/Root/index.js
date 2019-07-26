@@ -26,7 +26,7 @@ class Root extends Component {
       <Fragment>
         <Header />
           <Switch>
-            <Route exact path="/mountaingiants" component={Home} />
+            <Route path="/mountaingiants" component={Home} />
             <Route path="/obra" component={Obra} />
             <Route path="/autor" component={Autor} />
             <Route path="/elenco" component={Elenco} />
