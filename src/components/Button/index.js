@@ -57,7 +57,7 @@ class Button extends PureComponent {
     })
 
     if (this.props.onClick) {
-      this.props.onClick()
+      this.props.onClick(e)
     }
   }
 
